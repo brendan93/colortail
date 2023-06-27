@@ -1,0 +1,40 @@
+
+For more recent changes see: https://github.com/joakim666/colortail/commits/master
+
+2012-08-01 Joakim Ek <joakim@pjek.se>
+
+	* Bumped version number to 0.3.4
+	* Merged feature to reopen a disappeared file, i.e. due to log rotation,
+	  made by Ben Kibbey <bjk@luxsci.net>.
+	* Merged patch to accept "-" as filename to read from STDIN made
+	  by Michal Maruska mmaruska@gmail.com
+	* Merged patch to check for configuration file in
+	  ~/.colortail/conf.colortail and if that doesn't exist check in
+	  /etc/colortail/conf.colortail if no -k argument was passed on the command
+	  line. Feature made by Jess Portnoy kernel01@gmail.com
+
+2010-06-02 Joakim Ek <joakim@pjek.se>
+
+	* Released version 0.3.3
+	* Fixed stupid off by one error in TailFile.cc that caused a segfault
+	  if a line in the tailed file was longer that 1024 characters.
+
+  Reported by: Bill Pollifrone and Tom Dickson
+
+2009-11-20 Joakim Ek <joakim@pjek.se>
+
+	* Released version 0.3.2
+	* Fixed a few places where a faulty string pointer could be returned.
+
+2009-11-19 Joakim Ek <joakim@pjek.se>
+
+	 * Released version 0.3.1
+	 * Corrected errors on 64-bit platforms
+	 * Merged gcc3 patch
+
+<erased old ChangeLog then the rewrite started>
+
+1999-03-12 Joakim Ek <joakim@pjek.se>
+ * 
+ 
+ 
